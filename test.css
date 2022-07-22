@@ -1,0 +1,52 @@
+body{
+    background-color: peachpuff ;
+}
+#intro{
+    font-weight: bold;
+    font-style:italic ;
+}
+
+.box3 {
+    width: 2.5px;
+    height: 2px;
+    padding: 1px;
+    border: 6px solid rgb(104, 9, 9);
+    margin: 0;
+} 
+#content {
+    margin: auto;
+    width: 70%;
+    float: right;
+
+}
+#content div {
+    padding: 10px;
+  }
+#title {
+    margin-left: 2.5rem;
+  }
+
+.info{
+    display: inline-block;
+    padding: 6px; ;
+    text-decoration: underline;
+}
+
+.info>span{
+    color: brown;
+    font-weight: bold;
+}
+
+.heading {
+    color: white;
+    background-color: brown;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .afiyet{
+    float: right;
+    margin-right: 15rem;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 2rem;
+  }
